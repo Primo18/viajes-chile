@@ -7,35 +7,47 @@
     font-family: Raleway, sans-serif;
 }
 
-.navbar-custom {}
-
-.footer {
-    background-color: #0F0F0F;
+:root {
+    --primary-color: #29A1AB;
+    --secondary-color: #0F0F0F;
+    --background-dark-color: #000;
+    --text-white: #fff;
 }
 
-.header {
-    background: url('../img/bg-hero.jpg') 0% 0% no-repeat padding-box;
-    background-size: cover;
-    height: 608px;
+body {
+    background-color: var(--background-dark-color);
+    color: var(--text-white);
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-custom {
+    background-color: var(--background-dark-color);
+    color: var(--text-white);
+}
+
+
+.card-custom-featured {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+}
+
+
+.background-icons {
+    background-color: var(--primary-color);
     width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.lead {
-    max-width: 600px;
-}
-
-#about {
-    min-height: 532px;
-}
-
-
-#work {
-    background-color: #17A2B8;
-    min-height: 800px;
-}
 
 .btn-custom {
-    border: 1px solid #56C0E0;
+    border: 1px solid var(--primary-color);
     border-radius: 4px;
     background-color: transparent;
     color: #56C0E0;
@@ -43,19 +55,15 @@
 
 
 .contact-section {
-    background-color: #f8f9fa;
+
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.contact-section h2 {
-    color: #333;
-    margin-bottom: 15px;
-}
 
 .btn-enviar {
-    background-color: #17a2b8;
+    background-color: var(--primary-color);
     border: none;
-    color: white;
+    color: var(--text-white);
 }
