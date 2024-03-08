@@ -56,3 +56,29 @@ a {
     border: none;
     color: var(--text-white);
 }
+
+/* Estilos personalizados para el popover */
+.popover {
+    max-width: 300px;
+}
+
+.popover-header {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    border-color: var(--primary-color);
+}
+
+.popover-body {
+    color: #000000;
+    background-color: var(--background-dark-color);
+    color: var(--text-white);
+}
+
+/* Flecha del popover */
+.popover.bs-popover-top .arrow::after,
+.popover.bs-popover-auto[x-placement^="top"] .arrow::after {
+    border-top-color: #343a40;
+    /* Color de la flecha cuando el popover está arriba */
+}
+
+/* Ajustes de estilo adicionales según sea necesario */
