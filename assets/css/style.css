@@ -45,21 +45,11 @@ a {
 
 }
 
-
-.btn-custom {
-    border: 1px solid var(--primary-color);
-    border-radius: 4px;
-    background-color: transparent;
-    color: #56C0E0;
-}
-
-
 .contact-section {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
 }
-
 
 .btn-enviar {
     background-color: var(--primary-color);
